@@ -14,7 +14,7 @@ body{
 }
 .container{
     width: 90%;
-    height: 200vh;
+    height: 160vh;
     background-color: rgb(255,255,255);
     margin: auto;
     margin-top: 3%;
@@ -141,7 +141,7 @@ div.box8{
     display: flex;
     margin: auto;
     margin-left: 160px;
-    margin-top: 100px;
+    margin-bottom: -40%;
 }
 div.box1{
     background-color: rgb(245,249,250);
@@ -215,23 +215,53 @@ div.box3{
     margin-top: 10px;
     padding-top: 2%;
 }
-.buttons{
-    text-align: center;
+.subscribe{
+    display: flex;
+    background:rgb(255, 255, 255);
+    border-radius:30px;
+    position: relative;
+    padding: 2%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height:  90vh;
     margin-top: 3%;
+  }
+  .container2 h6{
+      margin-bottom: 30px;
+  }
+.box{
+    padding:1% ;
+    border-radius: 15px;
+    background: rgb(67,160,145);
+    margin-right: 4%;
+    align-content: center;
+  
 }
-.click a{
-    padding: 2px;
-    width: 30px;
-    text-align: center;
+
+.box input{
+    font-size: 15px;
+    color:#fff;
+    padding: 12px;
+    background: rgb(67,160,145);
 }
-.buttons a{
-    border-radius: 30px;
-    background-color: rgb(67,160,145);
-    width: 80px;
-    padding: 3%; 
+
+.box button{
     color: #fff;
-    box-shadow: 10px 10px 10px 10px black;
-}  
+    font-weight: bold;
+    font-size: 12px;
+    padding: 18px 20px;
+    border-radius: 20px;
+    background: rgb(43,160,171);
+    cursor: pointer;
+    margin-left: 24%;
+}
+
+
 input[type=text], select, textarea {
     width: 40%;
     padding: 12px;
@@ -255,13 +285,6 @@ input[type=text], select, textarea {
   
   input[type=submit]:hover {
     background-color: rgb(157, 219, 230);
-  }
-  .container2 {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    height:  90vh;
-    margin-top: 3%;
   }
 img{
     margin-top: -37%;

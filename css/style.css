@@ -137,6 +137,9 @@ div.box8{
 .content2 ,h4, h2{
     text-align: center;
 }
+.content2{
+    margin-top: -30%;
+}
 .boxes{
     display: flex;
     margin: auto;
@@ -229,7 +232,7 @@ div.box3{
     background-color: #f2f2f2;
     padding: 20px;
     height:  90vh;
-    margin-top: 3%;
+    margin-bottom: 3%;
   }
   .container2 h6{
       margin-bottom: 30px;
@@ -260,8 +263,6 @@ div.box3{
     cursor: pointer;
     margin-left: 24%;
 }
-
-
 input[type=text], select, textarea {
     width: 40%;
     padding: 12px;

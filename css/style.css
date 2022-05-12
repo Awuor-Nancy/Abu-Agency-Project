@@ -1,16 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Archivo+Black&family=Pacifico&family=Updock&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-wrap: normal;
 } 
 
 body{
     background-color: rgb(192,192,203);
-    font-family: 'Signika Negative', sans-serif;;
+    font-family: 'Signika Negative', sans-serif;
+    
 }
 .container{
     width: 90%;
@@ -275,12 +276,12 @@ input[type=text], select, textarea {
   input[type=submit] {
     background-color: rgb(67,160,145);
     color: white;
-    padding: 20px 30px;
+    padding: 20px 100px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     margin-right: 55%;
-    width: 20%;
+    
     box-shadow: 10px 10px 10px 10px black;
   }
   
@@ -296,6 +297,21 @@ img{
 .picha{
     margin-left: 37%;
     margin-bottom: -5%;
+
+}
+@media (min-width: 600px){
+    .container{
+        display: block;
+    }
+    .container2{
+        display: block;
+    }
+    .picha{
+        display: block;
+    }
+    .content2{
+        display: block;
+    }
 
 }
 
